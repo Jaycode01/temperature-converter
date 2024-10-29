@@ -1,0 +1,46 @@
+body{
+    background: hsl(0, 1%, 90%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgba(80, 80, 233, 0.74);
+    font-size: 2em;
+}
+
+form{
+    background: #fff;
+    text-align: center;
+    margin: auto;
+    max-width: 350px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsl(0, 1%, 50%);
+}
+
+#textBox{
+    max-width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    border: 2px solid hsl(0, 3%, 17%);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+button{
+    border: none;
+    background: hsl(0, 79%, 48%);
+    font-size: 1em;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#result{
+    font-weight: bold;
+}
